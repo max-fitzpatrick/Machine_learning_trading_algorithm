@@ -6,11 +6,6 @@
 #University: University of Bordeaux
 ################################################################
 ################################################################
-from quantopian.algorithm import attach_pipeline, pipeline_output
-from quantopian.pipeline import Pipeline
-from quantopian.pipeline.data.builtin import USEquityPricing
-from quantopian.pipeline.factors import AverageDollarVolume
-from quantopian.pipeline.filters.morningstar import Q1500US
 import numpy as np
 import pandas as pd
 import math as m
